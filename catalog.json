@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-19T21:14Z",
+ "generated": "2026-10-20T08:21Z",
  "tags": [
   "analysis",
   "architecture",
@@ -439,7 +439,7 @@
     "drawing",
     "productivity"
    ],
-   "screenshot": "loop_cut.png",
+   "screenshot": "loop_cut.webp",
    "name": {
     "es": "Corte en bucle",
     "en": "Loop Cut",
