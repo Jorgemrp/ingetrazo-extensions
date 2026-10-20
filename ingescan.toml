@@ -1,0 +1,28 @@
+id = "ingescan"
+version = "1.0.0"
+author = "Jorge Rodríguez Pérez"
+author_url = "https://github.com/Jorgemrp"
+license = "GPL-3.0-or-later"
+
+repository = "https://github.com/Jorgemrp/IngeScan"
+download = "https://raw.githubusercontent.com/Jorgemrp/IngeScan/71a62ffc65814360a295ebaa377e48ff178072be/ingescan.py"
+sha256 = "1885d1d5c23b2b38b1d8321efa931e8375b54fac024a0a73a78857255b89ec2a"
+
+ingetrazo = "0.5.8"
+tags = ["import-export", "bim", "analysis", "architecture"]
+screenshot = "ingescan.png"
+
+[name]
+es = "IngeScan — Nubes de Puntos y Escaneos 3D"
+en = "IngeScan — Point Clouds & 3D Scans"
+pt = "IngeScan — Nuvens de Pontos e Digitalizações 3D"
+
+[summary]
+es = "Importa, alinea, secciona e inspecciona nubes de puntos LiDAR (.dae, .ply, .xyz, .las, .e57) con Snap, oclusión y mapa de desviaciones."
+en = "Import, align, section and inspect LiDAR point clouds (.dae, .ply, .xyz, .las, .e57) with snapping, solid occlusion and inspection map."
+pt = "Importa, alinha, secciona e inspeciona nuvens de pontos LiDAR (.dae, .ply, .xyz, .las, .e57) com Snap, oclusão e mapa de desvios."
+
+[description]
+es = "Permite importar escaneos 3D y nubes de puntos (COLLADA .dae con textura JPG, PLY, XYZ, LAS y ASTM E57) sin librerías externas. Incluye bloqueo como plantilla inerte para modelar encima con Snap magnético, transformación libre con Mover (M) y Rotar (Q), oclusión en profundidad tras caras sólidas, corte horizontal de planta (Sección Z) y Mapa de Inspección de desviaciones (gradiente Verde-Amarillo-Rojo con tolerancia ajustable en vivo)."
+en = "Import 3D scans and point clouds (COLLADA .dae with JPG texture, PLY, XYZ, LAS, and ASTM E57) with zero external dependencies. Features template locking for magnetic point snapping, interactive Move (M) and Rotate (Q), hardware depth occlusion behind solid faces, horizontal Z-sectioning, and a real-time Green-Yellow-Red Deviation Inspection Map."
+pt = "Permite importar digitalizações 3D e nuvens de pontos (COLLADA .dae com textura JPG, PLY, XYZ, LAS e ASTM E57) sem dependências externas. Inclui bloqueio como modelo de referência com Snap magnético, oclusão atrás de faces sólidas, secção horizontal Z e Mapa de Inspeção de desvios em tempo real."
